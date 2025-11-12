@@ -92,16 +92,16 @@ docker compose up --build
 
 **Перший запуск ( лічильний = 1)**
 <p align="center"> 
-  <img src="screenshots6/P1.png" height="400px"> 
+  <img src="screenshots/P1.png" height="400px"> 
 </p>
 
 ***Оновлення сторінки лічильник збільшується**
 <p align="center"> 
-  <img src="screenshots6/P2.png" height="400px"> 
+  <img src="screenshots/P2.png" height="400px"> 
 </p>
 
 <p align="center"> 
-  <img src="screenshots6/P3.png" height="400px"> 
+  <img src="screenshots/P3.png" height="400px"> 
 </p>
 
 ## Висновок
