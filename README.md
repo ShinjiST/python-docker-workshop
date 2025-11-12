@@ -28,7 +28,6 @@
 from flask import Flask
 import redis, os
 app = Flask(__name__)
-# 'redis' - це ім'я сервісу, вказане у docker-compose.yml
 redis_client = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
 @app.route('/')
 def hello():
@@ -92,16 +91,16 @@ docker compose up --build
 
 **Перший запуск ( лічильний = 1)**
 <p align="center"> 
-  <img src="screenshots/P1.png" height="400px"> 
+  <img src="screenshots/P1.png" width="600px"> 
 </p>
 
-***Оновлення сторінки лічильник збільшується**
+**Оновлення сторінки лічильник збільшується**
 <p align="center"> 
-  <img src="screenshots/P2.png" height="400px"> 
+  <img src="screenshots/P2.png" width="600px"> 
 </p>
 
 <p align="center"> 
-  <img src="screenshots/P3.png" height="400px"> 
+  <img src="screenshots/P3.png" width="600px"> 
 </p>
 
 ## Висновок
